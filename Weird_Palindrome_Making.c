@@ -1,26 +1,3 @@
 #include<stdio.h>
-int main()
-{
-    int t,n,i,x;
-    scanf("%d",&t);
-    while(t--)
-    {
-        int c=0;
-        scanf("%d",&n);
-        for(i=0;i<n;i++)
-        {
-            scanf("%d",&x);
-            if(x%2==1)
-            {
-                c++;
-            }
-        }
-        if(c%2==1)
-        {
-            c--;
-            
-        }
-        printf("%d
-",c/2);
-    }
-}
+int main(){int t,j;scanf("%d",&t);for(j=1;j<=t;j++){int n;scanf("%d",&n);int a[100],i,c=0;for(i=0;i<n;i++){scanf("%d",&a[i]);}for(i=0;i<n;i++){if(a[i]%2==1){c+=1;}}printf("%d
+",c/2);}}
